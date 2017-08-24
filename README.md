@@ -10,6 +10,7 @@
  * 卷积网络模型参照LeNet-5模型，注意卷积层加偏置项，要用tf.nn.bias_add函数，不能直接用+号，因为矩阵上不同位置上的节点都要加上同样的偏置项；池化层采用max_pool最大池化层
    ```python
    tf.nn.bias_add(conv,bias)
+   
    ```
 
  * 通过tf.summary模块，将计算图的结构和信息存入日志，然后在terminal输入tensroboard --logdir=="/.../",在浏览器打开localhost:6006查看可视化结果。
