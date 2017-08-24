@@ -1,6 +1,6 @@
-#captcha-recognition
+# captcha-recognition
 
-###卷积神经网络识别验证码，运行环境python3.5+tensorflow1.2.1
+### 卷积神经网络识别验证码，运行环境python3.5+tensorflow1.2.1
 
 `代码包括三个部分：`
  * gen_captcha通过python现有的captcha库生成验证码，可以通过参数num_per_image设置验证码位数，n_group设置共生成几组这类验证码
